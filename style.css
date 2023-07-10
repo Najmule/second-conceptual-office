@@ -26,3 +26,27 @@
 .item:hover{
     color:blue
 }
+.banner-img{
+    width: 300px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: rgb(75, 64, 64);
+    align-items: center;
+}
+.banner-text{
+    color: white;
+    font-size: 35px;
+    width: 50%;
+}
+.banner-desc{
+    font-size: 20px;
+}
+.banner-btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: 0px;
+}
