@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    background-color: black;
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-pic{
+    width: 120px;
+}
+.menus{
+    color: white;
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.item:hover{
+    color:blue
+}
